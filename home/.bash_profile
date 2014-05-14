@@ -13,6 +13,9 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+# enable solarized dircolors (based on https://github.com/seebi/dircolors-solarized)
+eval `dircolors ~/dircolors-solarized/dircolors.256dark`
+
 # Load RVM, if you are using it
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
