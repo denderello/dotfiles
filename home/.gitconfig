@@ -3,3 +3,5 @@
 	name = Dennis Benkert
 [color]
 	ui = true
+[core]
+	excludesfile = ~/.gitignore
