@@ -2,6 +2,13 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" map leader key to , character
+let mapleader = ','
+
+" map moving between buffers to <leader> + x or y
+nnoremap <silent> <leader>x :bn<CR>
+nnoremap <silent> <leader>y :bp<CR>
+
 " enable ctags file search
 set tags=tags;/
 
