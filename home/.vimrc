@@ -94,6 +94,9 @@ endfunction
 map <C-a> :call Comment()<CR>
 map <C-b> :call Uncomment()<CR>
 
+" colorcolumn / print margin
+:set colorcolumn=120
+
 " activate neocomplcache
 let g:neocomplcache_enable_at_startup = 1
 
