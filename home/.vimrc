@@ -9,6 +9,13 @@ let mapleader = ','
 nnoremap <silent> <leader>x :bn<CR>
 nnoremap <silent> <leader>y :bp<CR>
 
+" map tagbar to <leader> + b
+nnoremap <silent> <Leader>b :TagbarToggle<CR>
+
+" configure tagbar to close after focusing on a tag
+let g:tagbar_autoclose = 1
+let g:tagbar_autofocus = 1
+
 " enable ctags file search
 set tags=tags;/
 
