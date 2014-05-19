@@ -109,3 +109,6 @@ let g:neocomplcache_enable_at_startup = 1
 
 " activate Ctrlp
 nnoremap <leader>. :CtrlPTag<cr>
+
+" set wrapping for filetypes
+au BufRead,BufNewFile *.md setlocal textwidth=80
