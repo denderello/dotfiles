@@ -16,6 +16,10 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+if [ -f "$HOME/.bash_profile_local" ]; then
+	. "$HOME/.bash_profile_local"
+fi
+
 # enable solarized dircolors (based on https://github.com/seebi/dircolors-solarized)
 eval `dircolors ~/dircolors-solarized/dircolors.256dark`
 
