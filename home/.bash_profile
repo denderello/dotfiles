@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# unset it to remove errors on ubuntu 14.04 machines
+unset LC_CTYPE
+
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
