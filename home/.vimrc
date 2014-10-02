@@ -104,8 +104,8 @@ map <C-b> :call Uncomment()<CR>
 " colorcolumn / print margin
 :set colorcolumn=120
 
-" activate neocomplcache
-let g:neocomplcache_enable_at_startup = 1
+" activate neocomplete
+let g:neocomplete#enable_at_startup = 1
 
 " activate Ctrlp
 nnoremap <leader>. :CtrlPTag<cr>
