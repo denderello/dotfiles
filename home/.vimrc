@@ -112,3 +112,8 @@ nnoremap <leader>. :CtrlPTag<cr>
 
 " set wrapping for filetypes
 au BufRead,BufNewFile *.md setlocal textwidth=80
+
+" go configuration
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
