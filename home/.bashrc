@@ -113,5 +113,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Fix losing vim colors in tmux when using mac os terminals in docker contoiners
+# http://stackoverflow.com/questions/10158508/lose-vim-colorscheme-in-tmux-mode#comment33947065_10264470
+alias tmux="tmux -2"
+
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
