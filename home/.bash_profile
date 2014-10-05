@@ -34,7 +34,7 @@ export BASH_IT=$HOME/.bash_it
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
-export BASH_IT_THEME='bakke'
+export BASH_IT_THEME='pure'
 
 # Your place for hosting Git repos. I use this for private repos.
 export GIT_HOSTING='git@git.domain.com'
