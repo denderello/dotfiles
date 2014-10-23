@@ -19,6 +19,8 @@ let g:tagbar_autofocus = 1
 " enable ctags file search
 set tags=tags;/
 
+au BufWritePost *.go silent! !ctags -R &
+
 " activate line numbers
 set number
 :highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
