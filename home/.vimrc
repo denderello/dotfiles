@@ -2,6 +2,12 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" airline-vim configuration
+set laststatus=2
+set noshowmode
+let g:bufferline_echo = 0
+let g:airline_theme='badwolf'
+
 " map leader key to , character
 let mapleader = ','
 
