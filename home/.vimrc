@@ -131,3 +131,6 @@ let g:go_fmt_command = "goimports"
 
 " Enable mouse scrolling
 :set mouse=a
+
+" Disable visual line wrapping
+:set nowrap
