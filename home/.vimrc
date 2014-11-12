@@ -8,6 +8,13 @@ set noshowmode
 let g:bufferline_echo = 0
 let g:airline_theme='badwolf'
 
+" powerline integration for airline
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+
 " map leader key to , character
 let mapleader = ','
 
