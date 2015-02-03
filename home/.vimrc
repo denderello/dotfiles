@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+filetype plugin on
 
 " airline-vim configuration
 set laststatus=2
@@ -32,7 +33,7 @@ let g:tagbar_autofocus = 1
 " enable ctags file search
 set tags=tags;/
 
-au BufWritePost *.go silent! !ctags -R &
+au BufWritePost *.go silent! !ctags -R 2> /dev/null &
 
 " activate line numbers
 set number
