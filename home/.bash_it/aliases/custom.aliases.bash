@@ -7,6 +7,7 @@ alias http='docker run -it --rm --net=host clue/httpie'
 
 alias l="ls -lah"
 
+alias go-projects="cd $PROJECT_PATH"
 alias go-gopath="cd $GOPATH/src"
 alias go-home="cd ~"
 
