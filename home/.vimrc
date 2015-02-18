@@ -26,6 +26,9 @@ nnoremap <silent> <leader>y :bp<CR>
 " map tagbar to <leader> + b
 nnoremap <silent> <Leader>b :TagbarToggle<CR>
 
+" map NERDTree to <leader> + n
+nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
+
 " configure tagbar to close after focusing on a tag
 let g:tagbar_autoclose = 1
 let g:tagbar_autofocus = 1
