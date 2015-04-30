@@ -1,7 +1,9 @@
-execute pathogen#infect()
+call pathogen#infect()
+call pathogen#helptags()
+
+" Enable filetype plugins 
 syntax on
 filetype plugin indent on
-filetype plugin on
 
 " airline-vim configuration
 set laststatus=2
