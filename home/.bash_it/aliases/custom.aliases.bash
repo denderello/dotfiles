@@ -19,3 +19,7 @@ go-code () {
 go-gs () {
   go-code github.com/giantswarm/$1
 }
+
+install-to-home () {
+  cp $1 ~/bin/$1
+}
