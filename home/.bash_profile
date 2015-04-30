@@ -20,6 +20,16 @@ if [ -f "$HOME/.bash_profile_local" ]; then
 	. "$HOME/.bash_profile_local"
 fi
 
+# Enable fasd
+alias a='fasd -a'        # any
+alias s='fasd -si'       # show / search / select
+alias d='fasd -d'        # directory
+alias f='fasd -f'        # file
+alias sd='fasd -sid'     # interactive directory selection
+alias sf='fasd -sif'     # interactive file selection
+alias z='fasd_cd -d'     # cd, same functionality as j in autojump
+alias zz='fasd_cd -d -i' # cd with interactive selection
+
 # enable solarized dircolors (based on https://github.com/seebi/dircolors-solarized)
 eval `dircolors ~/dircolors-solarized/dircolors.256dark`
 
