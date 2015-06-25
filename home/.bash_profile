@@ -3,6 +3,9 @@
 # unset it to remove errors on ubuntu 14.04 machines
 unset LC_CTYPE
 
+# unset GREP_OPTIONS since newer grep versions don't support it anymore
+unset GREP_OPTIONS
+
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
