@@ -9,10 +9,10 @@ filetype plugin indent on
 set laststatus=2
 set noshowmode
 let g:bufferline_echo = 0
-let g:airline_theme='badwolf'
+let g:airline_theme='solarized'
 
 " powerline integration for airline
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
@@ -46,7 +46,7 @@ set number
 
 " Solarized
 syntax on
-set background=dark
+set background=light
 let g:solarized_termcolors = 256
 colorscheme solarized
 
