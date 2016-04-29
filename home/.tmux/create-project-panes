@@ -1,5 +1,5 @@
-selectp -t 0      # Select pane 0
-splitw -v -p 25   # Split pane 1 horizontally by 25%
-selectp -t 0      # Select pane 0
-splitw -h -p 40   # Split pane 0 vertically by 40%
-selectp -t 0      # Select pane 0
+selectp -t 0                               # Select pane 0
+splitw -v -p 25 -c "#{pane_current_path}"  # Split pane 1 horizontally by 25% in PWD
+selectp -t 0                               # Select pane 0
+splitw -h -p 40 -c "#{pane_current_path}"  # Split pane 0 vertically by 40% in PWD
+selectp -t 0                               # Select pane 0
