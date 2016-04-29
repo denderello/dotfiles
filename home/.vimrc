@@ -125,8 +125,9 @@ map <C-b> :call Uncomment()<CR>
 " colorcolumn / print margin
 :set colorcolumn=120
 
-" activate neocomplete
+" activate neocomplete with manual completion
 let g:neocomplete#enable_at_startup = 1
+let g:neocomplete#disable_auto_complete = 1
 
 " activate Ctrlp
 nnoremap <leader>. :CtrlPTag<cr>
