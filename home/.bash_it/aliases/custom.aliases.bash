@@ -2,7 +2,6 @@ alias gd='git diff'
 
 alias gpo='git push origin $(git rev-parse --abbrev-ref HEAD)'
 
-alias jq="docker run --rm -i realguess/jq:latest jq"
 alias influxdb-cli="docker run --rm -it --net=host denderello/docker-influxdb-cli"
 alias http='docker run -it --rm --net=host clue/httpie'
 alias wrk='docker run -it --rm --net=host -v `pwd`:/data williamyeh/wrk:4.0.1'
