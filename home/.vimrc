@@ -21,9 +21,12 @@ let g:airline_symbols.space = "\ua0"
 " map leader key to , character
 let mapleader = ','
 
-" map moving between buffers to <leader> + x or y
-nnoremap <silent> <leader>x :bn<CR>
-nnoremap <silent> <leader>y :bp<CR>
+" map moving between buffers to <leader> + a or s
+nnoremap <silent> <leader>s :bn<CR>
+nnoremap <silent> <leader>a :bp<CR>
+
+" map moving closing buffers to <leader> + w
+nnoremap <silent> <leader>w :bd<CR>
 
 " map tagbar to <leader> + b
 nnoremap <silent> <Leader>b :TagbarToggle<CR>
