@@ -34,6 +34,11 @@ nnoremap <silent> <Leader>b :TagbarToggle<CR>
 " map NERDTree to <leader> + n
 nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
 
+" map golang related commands to <leader> + g*
+nnoremap <silent> <leader>gb :GoBuild<CR>
+nnoremap <silent> <leader>gt :GoTest<CR>
+nnoremap <silent> <leader>gi :GoImports<CR>
+
 " configure tagbar to close after focusing on a tag
 let g:tagbar_autoclose = 1
 let g:tagbar_autofocus = 1
